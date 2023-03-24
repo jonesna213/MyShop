@@ -18,6 +18,8 @@ namespace MyShop.WebUI.Controllers
 
         public ManageController()
         {
+            //If roles are important
+            //_userManager.AddToRole("", "Admin");
         }
 
         public ApplicationSignInManager SignInManager
