@@ -13,6 +13,7 @@ namespace MyShop.WebUI.Tests.Mocks {
 
         public MockContext() {
             items = new List<T>();
+            this.className = typeof(T).Name;
         }
 
         public void Commit() {
